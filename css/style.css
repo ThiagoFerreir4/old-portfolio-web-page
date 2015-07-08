@@ -1,0 +1,231 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
+    font-size: 16px;
+    border: 1px outset rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 4px 0px 18px rgba(0,0,0,46);
+    
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('css_img/background_top.jpg') no-repeat center scroll;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+  color: black;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+hr.intro-divider {
+  border: 2px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 3px 1px rgba(0,0,0,0.6);
+}
+/* Transparent buttons */
+.btn {
+  border: 3px outset rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.3);
+  text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+  box-shadow: 3px 6px 3px rgba(0,0,0,0.9);
+}
+
+.btn:hover {
+	transform:scale(1.2);
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+/*section 2*/
+.content-section-a {
+    padding: 50px 0;
+    background-color: silver;
+    background: url('css_img/background_middle1.jpg') no-repeat center center scroll;
+    background-size: cover;   
+}
+
+h2.section-heading {
+  text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+}
+
+.img-circle {
+  border: 3px groove rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+}
+
+/* Portfolio section*/
+section{
+  color: black;
+  background-color: silver;
+  background: url('css_img/background_middle2.jpg') no-repeat center scroll;
+    background-size: cover;
+  
+}
+
+p {
+  color: #000;
+}
+
+.text-muted {
+  color: #000;
+}
+
+.portfolio-item {
+  padding: 7px;
+}
+/*Portfolio blocks*/
+.col-md-4 {
+  display: inline-block;
+  border: 2px outset rgba(255, 255, 255, 0.6);
+  border-radius: 2%;
+  text-align: center;
+  box-shadow: 3px 6px 3px rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+.col-md-4:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px outset;
+  transition: 0.5s;
+  box-shadow: 15px 15px 55px 25px #000;
+  
+
+
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url('css_img/background_bottom.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
