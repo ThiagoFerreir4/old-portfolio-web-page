@@ -59,7 +59,7 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
 
 .intro-message > h3 {
     text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
-  color: black;
+    color: black;
 }
 
 @media(max-width:767px) {
@@ -102,6 +102,10 @@ hr.intro-divider {
   transition: 0.5s;
   box-shadow: 5px 5px 5px #000;
 }
+/*larger github button font-size*/
+.fa-github{
+  font-size: 25px;
+}
 
 .network-name {
     text-transform: uppercase;
@@ -131,7 +135,7 @@ section{
   color: black;
   background-color: silver;
   background: url('css_img/background_middle2.jpg') no-repeat center scroll;
-    background-size: cover;
+  background-size: cover;
   
 }
 
@@ -144,26 +148,27 @@ p {
 }
 
 .portfolio-item {
-  padding: 7px;
+  padding: 9px;
 }
-/*Portfolio blocks*/
+/*Portfolio items*/
 .col-md-4 {
   display: inline-block;
-  border: 2px outset rgba(255, 255, 255, 0.6);
-  border-radius: 2%;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  border-radius: 1%;
   text-align: center;
-  box-shadow: 3px 6px 3px rgba(0,0,0,0.9);
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+  text-shadow: 2px 4px 2px rgba(0,0,0,0.3);
   cursor: pointer;
 }
 .col-md-4:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border: 2px outset;
   transition: 0.5s;
-  box-shadow: 15px 15px 55px 25px #000;
-  
-
-
+  box-shadow: 15px 18px 15px rgba(0,0,0,0.9);  
 }
+/*Wikipedia item*/
+.portfolio2 {
+   padding: 17px; 
+}
+
 .section-heading {
     margin-bottom: 30px;
 }
