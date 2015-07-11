@@ -29,7 +29,7 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
     font-size: 18px;
     font-weight: 400;
 }
-
+/*Background and header*/
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -47,8 +47,9 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+    text-shadow: 3px 2px 3px #000;
     font-size: 5em;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .intro-divider {
@@ -58,7 +59,7 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
 }
 
 .intro-message > h3 {
-    text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
     color: black;
 }
 
@@ -91,28 +92,30 @@ hr.intro-divider {
 }
 /* Transparent buttons */
 .btn {
-  border: 3px outset rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.3);
-  text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
-  box-shadow: 3px 6px 3px rgba(0,0,0,0.9);
+  color: #000;
+  border: 2px outset rgba(0,0,0, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .btn:hover {
-	transform:scale(1.2);
+  color: #000;
+  border: 2px outset rgba(0,0,0, 0.7);
+  background: rgba(255, 255, 255, 0.6);
+  transform:scale(1.1);
   transition: 0.5s;
-  box-shadow: 5px 5px 5px #000;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+  text-transform: uppercase;
 }
 /*larger github button font-size*/
 .fa-github{
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
+
 /*section 2*/
 .content-section-a {
     padding: 50px 0;
@@ -121,8 +124,13 @@ hr.intro-divider {
     background-size: cover;   
 }
 
+a {
+  color: silver;
+  font-weight: bold;
+}
+
 h2.section-heading {
-  text-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
 }
 
 .img-circle {
@@ -224,6 +232,11 @@ p {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+h2.connect {
+    margin: 0;
+    text-shadow: 2px 1px 2px #000;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 footer {
