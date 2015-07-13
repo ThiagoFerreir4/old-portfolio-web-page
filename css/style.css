@@ -16,13 +16,11 @@ h6 {
     font-weight: 700;
 }
 
-nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
+.topnav {
     font-size: 16px;
-    border: 1px outset rgba(255, 255, 255, 0.6);
-    background: rgba(255, 255, 255, 0.3);
+    border: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
     box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
-    text-shadow: 4px 0px 18px rgba(0,0,0,46);
-    
 }
 
 .lead {
@@ -47,9 +45,9 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 3px 2px 3px #000;
+    text-shadow: 2px 1px 2px #000;
     font-size: 5em;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(192, 192, 192, 0.9);
 }
 
 .intro-divider {
@@ -59,7 +57,7 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
 }
 
 .intro-message > h3 {
-    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     color: black;
 }
 
@@ -87,28 +85,32 @@ nav.navbar, .navbar-default, .navbar-fixed-top, .topnav{
     }
 }
 hr.intro-divider {
-  border: 2px outset rgba(255, 255, 255, 0.2);
-  box-shadow: 2px 3px 1px rgba(0,0,0,0.6);
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  border-radius: 50%;
+  width: 100%;
 }
 /* Transparent buttons */
 .btn {
-  color: #000;
+  color: rgba(255, 255, 255, 0.9);
   border: 2px outset rgba(0,0,0, 0.2);
-  background: rgba(255, 255, 255, 0.4);
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+  box-shadow: 2px 2px 2px #000;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .btn:hover {
-  color: #000;
-  border: 2px outset rgba(0,0,0, 0.7);
-  background: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
+  border: 2px outset rgba(0,0,0, 0.2);
+  background: rgba(0, 0, 0, 0.9);
   transform:scale(1.1);
   transition: 0.5s;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+  box-shadow: 2px 2px 2px #000;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 /*larger github button font-size*/
 .fa-github{
@@ -130,18 +132,20 @@ a {
 }
 
 h2.section-heading {
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    margin: 0;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .img-circle {
-  border: 3px groove rgba(255, 255, 255, 0.3);
-  box-shadow: 3px 6px 3px rgba(0,0,0,0.6);
+  border: 1px groove rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 /* Portfolio section*/
 section{
   color: black;
-  background-color: silver;
   background: url('css_img/background_middle2.jpg') no-repeat center scroll;
   background-size: cover;
   
@@ -165,17 +169,17 @@ p {
   border-radius: 1%;
   text-align: center;
   box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
-  text-shadow: 2px 4px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   cursor: pointer;
+  height: 300px;
+  padding: 10px
 }
+
 .col-md-4:hover {
   transition: 0.5s;
-  box-shadow: 15px 18px 15px rgba(0,0,0,0.9);  
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9); 
 }
-/*Wikipedia item*/
-.portfolio2 {
-   padding: 17px; 
-}
+
 
 .section-heading {
     margin-bottom: 30px;
@@ -196,7 +200,6 @@ p {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
 }
 
@@ -235,8 +238,7 @@ p {
 }
 h2.connect {
     margin: 0;
-    text-shadow: 2px 1px 2px #000;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 footer {
