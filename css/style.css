@@ -93,8 +93,8 @@ hr.intro-divider {
 /* Transparent buttons */
 .btn {
   color: rgba(255, 255, 255, 0.9);
-  border: 2px outset rgba(0,0,0, 0.2);
-  background: rgba(0, 0, 0, 0.9);
+  border: 4px outset rgba(0,0,0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
   box-shadow: 2px 2px 2px #000;
   text-transform: uppercase;
@@ -103,8 +103,8 @@ hr.intro-divider {
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.9);
-  border: 2px outset rgba(0,0,0, 0.2);
-  background: rgba(0, 0, 0, 0.9);
+  border: 4px outset rgba(0,0,0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   transform:scale(1.1);
   transition: 0.5s;
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
