@@ -29,8 +29,8 @@ h6 {
 }
 /*Background and header*/
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding: 40px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 10px;*/
     text-align: center;
     color: #f8f8f8;
     background: url('css_img/background_top.jpg') no-repeat center scroll;
@@ -117,13 +117,24 @@ hr.intro-divider {
   font-size: 20px;
 }
 
+.supporting {
+  color: #fff;
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 35px 0 5px;
+}
+.supporting p {
+  color: #fff;
+  text-align: center;
+}
 
 /*section 2*/
+
 .content-section-a {
     padding: 50px 0;
     background-color: silver;
     background: url('css_img/background_middle1.jpg') no-repeat center center scroll;
-    background-size: cover;   
+    background-size: cover;
 }
 
 a {
@@ -146,9 +157,9 @@ h2.section-heading {
 /* Portfolio section*/
 section{
   color: black;
-  background: url('css_img/background_middle2.jpg') no-repeat center scroll;
+  background: url('css_img/background_middle2.jpg') no-repeat center center scroll;
   background-size: cover;
-  
+  padding: 10px;
 }
 
 p {
