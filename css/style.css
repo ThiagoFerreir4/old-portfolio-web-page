@@ -59,6 +59,7 @@ color: #000;
     color: #f8f8f8;
     background: url('css_img/background_top-min.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: 855px;
 }
 
 .intro-message {
@@ -161,7 +162,7 @@ hr.intro-divider {
     padding: 50px 0;
     background: url('css_img/architect.jpg') no-repeat center center fixed;
     background-size: cover;
-    
+    height: 755px;
 }
 
 a {
@@ -191,6 +192,7 @@ section{
   background: url('css_img/hall.jpg') no-repeat center center fixed;
   background-size: cover;
   padding: 10px;
+  height: 855px;
 }
 
 p {
@@ -239,6 +241,7 @@ p {
     color: #f8f8f8;
     background: url('css_img/connect.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: 755px;
 }
 
 .banner h2 {
