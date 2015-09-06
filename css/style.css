@@ -261,6 +261,7 @@ width:380px;
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
+  width: 92.5%;
   background: rgba(0,0,0,0.5);
 }
 
@@ -314,6 +315,13 @@ width:380px;
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+  width: 90%;
+  background: rgba(0,0,0,0.5);
+}
+
 }
 
 
